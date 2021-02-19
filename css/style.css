@@ -228,6 +228,18 @@ img {
   margin-bottom: 0px;
 }
 
+.advantages-list {
+  width: 270px;
+  height: 120px;
+  display: block;
+  align-content: center;
+  justify-content: center;
+}
+.item-antenna {
+  width: 70px;
+  height: 70px;
+}
+
 /* ---------- OUR WORK ---------- */
 .our-work {
   margin-top: 0px;
