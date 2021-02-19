@@ -104,7 +104,7 @@ img {
   color: var(--accent-color);
 }
 
-.button-icon {
+.button-message {
   display: inline-flex;
   width: 16px;
   height: 12px;
@@ -112,8 +112,18 @@ img {
   margin-right: 10px;
 }
 
-.button-icon:hover,
-.button-icon:focus {
+.button-phone {
+  display: inline-flex;
+  width: 10px;
+  height: 16px;
+  fill: #757575;
+  margin-right: 10px;
+}
+
+.button-message:hover,
+.button-message:focus,
+.button-phone:hover,
+.button-phone:focus {
   fill: var(--accent-color);
 }
 
