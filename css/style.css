@@ -276,10 +276,8 @@ img {
 
 /*---------- OUR TEAM----------  */
 .our-team {
-  /* margin-top: 94px; */
   margin-bottom: 0px;
   padding-bottom: 94px;
-
   background-color: var(--background-btn-portfolio);
 }
 
@@ -306,7 +304,7 @@ img {
 }
 
 .team-name {
-  background-color: white;
+  background-color: var(--tertiary-color-text);
 }
 
 .our-team h3 {
@@ -327,6 +325,22 @@ img {
   padding-top: 10px;
   padding-bottom: 30px;
   margin: 0px;
+}
+
+.team-link {
+  width: 20px;
+  height: 20px;
+}
+
+.team-social-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-social-link li {
+  box-shadow: none;
+  width: 20px;
+  height: 20px;
 }
 
 /* ----------FOOTER---------- */
