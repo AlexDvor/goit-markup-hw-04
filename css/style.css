@@ -323,7 +323,7 @@ img {
   line-height: 1.18;
   color: var(--secondary-color-text);
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
   margin: 0px;
 }
 
@@ -334,13 +334,16 @@ img {
 
 .team-social-link {
   display: flex;
-  justify-content: space-between;
+  background-color: var(--tertiary-color-text);
+  justify-content: center;
+  outline: 1px solid red;
 }
 
 .team-social-link li {
   box-shadow: none;
-  width: 20px;
-  height: 20px;
+  width: 44px;
+  height: 44px;
+  outline: 1px solid green;
 }
 
 /* ----------FOOTER---------- */
