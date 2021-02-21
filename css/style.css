@@ -155,7 +155,7 @@ b {
       var(--background-color-hero),
       var(--background-color-hero)
     ),
-    url(/images/backgroung.jpg);
+    url(./images/backgroung.jpg);
 }
 
 .hero h1 {
@@ -284,6 +284,7 @@ b {
 }
 
 /*---------- OUR TEAM----------  */
+
 .our-team {
   margin-bottom: 0px;
   padding-bottom: 94px;
