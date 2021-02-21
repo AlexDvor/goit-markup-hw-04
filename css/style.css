@@ -363,6 +363,7 @@ img {
 }
 
 /*---------- OUR CLIENTS----------  */
+
 .our-clients {
   /* padding-top: 94px;
   padding-bottom: 94px; */
@@ -374,6 +375,19 @@ img {
   font-weight: 700;
   line-height: 1.16;
   color: var(--primary-color-text);
+}
+
+.list-client {
+  display: flex;
+}
+
+.item-client {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  border: 2px solid tomato;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ----------FOOTER---------- */
