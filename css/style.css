@@ -9,6 +9,7 @@
   --background-btn-portfolio: #f5f4fa;
   --background-color-hero: rgba(47, 48, 58, 0.4);
   --inactive-color-button: #afb1b8;
+  --background-color-button: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -30,6 +31,11 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+b {
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -350,7 +356,7 @@ img {
 }
 
 .link-icon:hover,
-.social-list:focus {
+.link-icon:focus {
   fill: var(--tertiary-color-text);
   cursor: pointer;
 }
@@ -454,6 +460,47 @@ img {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
+}
+
+.box-link b {
+  display: flex;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--tertiary-color-text);
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.box,
+.list-footer-link {
+  display: flex;
+  align-items: baseline;
+}
+
+.box-link {
+  margin-left: 70px;
+}
+
+.social-list-footer:not(:last-child) {
+  margin-right: 10px;
+}
+
+.icon-footer {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--background-color-button);
+  fill: var(--tertiary-color-text);
+}
+
+.icon-footer:hover,
+.icon-footer:focus {
+  cursor: pointer;
+  background-color: var(--accent-color);
 }
 
 /* ----------PORTFOLIO PAGE----------*/
