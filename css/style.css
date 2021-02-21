@@ -365,8 +365,8 @@ img {
 /*---------- OUR CLIENTS----------  */
 
 .our-clients {
-  /* padding-top: 94px;
-  padding-bottom: 94px; */
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .our-clients h2 {
@@ -379,15 +379,32 @@ img {
 
 .list-client {
   display: flex;
+  justify-content: space-between;
+}
+
+.link-client {
+  fill: var(--inactive-color-button);
 }
 
 .item-client {
   display: flex;
   width: 170px;
   height: 90px;
-  border: 2px solid tomato;
+  border: 1px solid var(--inactive-color-button);
+  border-radius: 5px;
   align-items: center;
   justify-content: center;
+}
+
+.item-client:hover,
+.item-client:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.icon-client:hover,
+.icon-client:focus {
+  fill: var(--accent-color);
+  cursor: pointer;
 }
 
 /* ----------FOOTER---------- */
