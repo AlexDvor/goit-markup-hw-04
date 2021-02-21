@@ -111,15 +111,17 @@ b {
   color: var(--accent-color);
 }
 
+.contact-item {
+  display: flex;
+  align-items: center;
+}
+
 .button-message {
-  display: inline-flex;
   fill: #757575;
   margin-right: 10px;
 }
 
 .button-phone {
-  display: inline-flex;
-
   fill: #757575;
   margin-right: 10px;
 }
@@ -469,7 +471,6 @@ b {
   text-transform: uppercase;
   color: var(--tertiary-color-text);
   padding-bottom: 20px;
-  margin: 0;
 }
 
 .box,
