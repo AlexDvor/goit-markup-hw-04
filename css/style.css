@@ -105,19 +105,14 @@ b {
   color: var(--secondary-color-text);
   padding-top: 33px;
   padding-bottom: 31px;
-}
-
-.link-item:hover,
-.link-item:focus,
-.nav-item:hover,
-.nav-item:focus {
-  color: var(--accent-color);
-}
-
-.contact-item {
   display: flex;
   align-items: center;
 }
+
+/* .contact-item {
+  display: flex;
+  align-items: center;
+} */
 
 .button-message {
   fill: #757575;
@@ -129,10 +124,17 @@ b {
   margin-right: 10px;
 }
 
-.button-message:hover,
-.button-message:focus,
-.button-phone:hover,
-.button-phone:focus {
+.link-item:hover,
+.link-item:focus,
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--accent-color);
+}
+
+.link-item:hover > .button-message,
+.link-item:focus > .button-message,
+.link-item:hover > .button-phone,
+.link-item:focus > .button-phone {
   fill: var(--accent-color);
   cursor: pointer;
 }
