@@ -410,7 +410,7 @@ b {
   justify-content: center;
 }
 
-.item-client:hover,
+/* .item-client:hover,
 .item-client:focus {
   border: 1px solid var(--accent-color);
 }
@@ -419,6 +419,11 @@ b {
 .icon-client:focus {
   fill: var(--accent-color);
   cursor: pointer;
+} */
+
+.item-client .link-client:focus .icon-client {
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 /* ----------FOOTER---------- */
