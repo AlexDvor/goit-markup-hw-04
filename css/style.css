@@ -434,11 +434,6 @@ b {
   color: var(--tertiary-color-text);
 }
 
-.logo {
-  display: inline-block;
-  margin-bottom: 0px;
-}
-
 .links p {
   display: inline-block;
   padding: 0px;
