@@ -34,7 +34,7 @@ img {
   height: auto;
 }
 
-b {
+p {
   margin: 0;
   padding: 0;
 }
@@ -465,13 +465,14 @@ b {
   color: var(--accent-color);
 }
 
-.box-link b {
+.box-link p {
   display: flex;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--tertiary-color-text);
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .box,
