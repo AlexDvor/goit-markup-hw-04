@@ -410,23 +410,15 @@ b {
   justify-content: center;
 }
 
-/* .item-client:hover,
+.item-client:hover,
 .item-client:focus {
   border: 1px solid var(--accent-color);
 }
 
-.icon-client:hover,
-.icon-client:focus {
+.item-client:hover .icon-client,
+.item-client:focus .icon-client {
   fill: var(--accent-color);
   cursor: pointer;
-} */
-
-.item-client:hover {
-  border: 1px solid var(--accent-color);
-}
-
-.item-client:hover .icon-client {
-  fill: var(--accent-color);
 }
 
 /* ----------FOOTER---------- */
