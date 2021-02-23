@@ -421,9 +421,12 @@ b {
   cursor: pointer;
 } */
 
-.item-client .link-client:focus .icon-client {
-  fill: var(--accent-color);
+.item-client:hover {
   border: 1px solid var(--accent-color);
+}
+
+.item-client:hover .icon-client {
+  fill: var(--accent-color);
 }
 
 /* ----------FOOTER---------- */
