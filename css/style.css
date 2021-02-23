@@ -412,10 +412,9 @@ img {
   border: 1px solid var(--accent-color);
 }
 
-.item-client:hover .icon-client,
-.item-client:focus .icon-client {
+.link-client:hover .icon-client,
+.link-client:focus .icon-client {
   fill: var(--accent-color);
-  cursor: pointer;
 }
 
 /* ----------FOOTER---------- */
