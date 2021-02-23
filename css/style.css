@@ -362,13 +362,8 @@ img {
 .link-icon:focus {
   fill: var(--tertiary-color-text);
   cursor: pointer;
-}
-
-.social-list:hover,
-.social-list:focus {
   border-radius: 50%;
   background-color: var(--accent-color);
-  cursor: pointer;
 }
 
 /*---------- OUR CLIENTS----------  */
