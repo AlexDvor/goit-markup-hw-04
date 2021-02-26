@@ -215,6 +215,14 @@ p {
   overflow: hidden;
 }
 
+.description-list li {
+  width: 270px;
+}
+
+.description-list li:not(:first-child) {
+  margin-left: 30px;
+}
+
 .description-list h3 {
   font-weight: 700;
   font-size: 14px;
